@@ -33,6 +33,7 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     background-color: blue;
+    justify-content: center;
 }
 .flex-content {
     width: 125px;
@@ -43,7 +44,15 @@ h1 {
     border-style: solid;
     text-align: center;
 }
+.flex-content-img {
+    text-align: center;
+}
 .flex-content:hover {
+    transform: rotate(74880deg);
+    transition-duration: 20s;
+    transition-timing-function: ease-in-out;
+}
+.flex-content-img:hover {
     transform: rotate(74880deg);
     transition-duration: 20s;
     transition-timing-function: ease-in-out;
