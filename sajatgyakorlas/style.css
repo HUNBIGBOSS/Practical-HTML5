@@ -134,3 +134,12 @@ h1 {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
+.flip-card .flip-card-inner .flip-card-front img {
+    width: 200px;
+    height: 300px;
+}
+.flip-card .flip-card-inner .flip-card-back img {
+    width: 200px;
+    height: 300px;
+}
